@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+		<link rel="stylesheet" href="estilo.css"/>
+        <meta charset="UTF-8">
+        
+    </head>
+    <body>
+	<div>
+        <form method="get" action="http://localhost/phpiniciantes/Aula08integrarhtml5phpexercicio02/index.php">
+            Nome: <input type="text" name="nome"/><br/>
+			Ano de nascimento:<input type="number" name="ano"/><br/>
+			<fieldset><legend>Sexo</legend>
+				<input type="radio" name="sexo" id="masc" value="homem" checked/>
+				<label for="masc">Masculino</label><br/>
+				<input type="radio" name="sexo" id="fem" value="Mulher"/>
+				<label for="fem">Feminino</label>
+			</fieldset><br/>
+            <input type="submit" value="Enviar"/>
+        </form>
+	</div>	
+    </body>
+</html>

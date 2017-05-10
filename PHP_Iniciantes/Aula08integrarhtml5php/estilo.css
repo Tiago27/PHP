@@ -1,0 +1,10 @@
+a{
+	border:1px solid black;
+	background: linear-gradient(to bottom, #DDD, #666);
+	font: 18pt Arial;
+	border-radius: 9px;
+	padding: 8px;
+	
+	color: #fff;
+	text-decoration: none;
+}
